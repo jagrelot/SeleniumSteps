@@ -19,7 +19,7 @@ public WebDriver chromeDriver;
 	@BeforeTest
 	public void beforeTestsetUp(){
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jagrelot\\Desktop\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		chromeDriver = new ChromeDriver();
 	}
 	
