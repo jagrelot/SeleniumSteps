@@ -49,8 +49,8 @@ public WebDriver chromeDriver;
 		int 	   count = 0;
 		WebDriverWait wait = new WebDriverWait(chromeDriver, 10);
 		ArrayList<String> acctsToCreate = new ArrayList<String>();
-		acctsToCreate.add("Test Account TestNG - 1 - Jenkins - GIT");
-		acctsToCreate.add("Test Account TestNG - 2 - Jenkins - GIT");
+		acctsToCreate.add("Test Account TestNG - 1 - Jenkins");
+		acctsToCreate.add("Test Account TestNG - 2 - Jenkins");
 	
 		for (String acct : acctsToCreate ) {
 				
